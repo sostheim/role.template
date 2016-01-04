@@ -1,4 +1,4 @@
-role_template
+role.template
 ========
 
 A template to use for implementing roles.
