@@ -4,6 +4,9 @@ role.template
 A template to use for implementing roles.
 
 **Instructions**
+
+To use this template:
+
 1. Clone this repository
 2. Rename this repository, remove the .git directory
 3. Publish or Private? Add or remove the Apache license details depending on wether or not you plan to make this available publicly. 
