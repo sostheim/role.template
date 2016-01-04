@@ -1,0 +1,28 @@
+---
+# This is where we specifiy publisher information for roles we 
+# want to make public to Ansible Galaxy
+# - if this information is present it wont affect the role
+#   regardless of wether or not we publish it.
+# - if you know your not *ever* going to publish it, then the 
+#   galaxy_info can be removed entirely
+galaxy_info:
+  author: sostheim (https://github.com/sostheim)
+  description: What this Role does
+  license: Apache v2.0
+# company: only added for non-personal work
+  min_ansible_version: 1.4
+  platforms:
+    - name: EL
+      versions:
+	- all
+    - name: Ubuntu
+      versions:
+	- precise
+        - trusty
+	- wily
+  categories:
+    - system
+
+# List dependences if any
+dependencies: []
+  

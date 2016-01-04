@@ -1,0 +1,7 @@
+---
+# test file for role.template role
+- hosts: all
+  sudo: true
+
+  roles:
+    - role.template

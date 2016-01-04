@@ -1,0 +1,8 @@
+# minimal ignores for ansible roles.
+
+# Emacs tracks.
+*~
+\#*\#
+
+# Don't publish your secrets.
+secrets.yml

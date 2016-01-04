@@ -1,0 +1,5 @@
+---
+# tasks file for role.template
+# Implement the logic of the new role here.
+- name: get facts
+  system:

@@ -1,0 +1,12 @@
+---
+# This is the actual role itself
+# 1) Rename this file to the <role_name> to be implmented
+# 2) Rename role_args to <role_name>_args 
+# 3) Remove this comment
+
+- hosts: all
+  sudo: true
+  roles:
+    - { role: ./,
+        role_args: ""
+      }
