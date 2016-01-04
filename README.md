@@ -10,11 +10,11 @@ To use this template:
 1. Clone this repository
 2. Rename this repository, remove the .git directory
 3. Publish or Private? Add or remove the Apache license details depending on wether or not you plan to make this available publicly. 
-4 Find and replace every instance of the template parameters \{ role \}, \{ role_name \}, \{ role_args \}, etc... with the name of the role you are createing.
+4. Find and replace every instance of the template parameters \{ role \}, \{ role_name \}, \{ role_args \}, etc... with the name of the role you are createing.
 5. Implement your role logic (tasks/main.yml)
-6) Test
-7) Create a new Github repository for your role
-8) Optionally: Create a new Ansible Galaxy Role for your repository (udpate meta/main.yml)
+6. Test
+7. Create a new Github repository for your role
+8. Optionally: Create a new Ansible Galaxy Role for your repository (udpate meta/main.yml)
 
 **Example Play**:
 ```
